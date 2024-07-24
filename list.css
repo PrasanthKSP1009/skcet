@@ -1,0 +1,15 @@
+ul{
+    background-color: aqua;
+    margin: 10px;
+    padding-left: 20px;
+    border: 1px dotted black;
+    list-style-type:square;
+}
+li{
+    background-color: black;
+    color: rgb(199, 72, 72);
+    padding-top: 10px;
+    height: 20px;
+    width: 35px;
+}
+
