@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body {
+            margin: 1px;
+        }
+
+        .flex {
+            display: flex;
+            background-color: chocolate;
+            flex-direction: row;
+            color: white;
+            justify-content: space-evenly;
+            padding: 0.5rem;
+        }
+
+        .item {
+            font-size: 30px;
+        }
+        .ul{
+            display: flex;
+            list-style-type: none;
+            flex-wrap: wrap;
+        }
+        .li{
+            padding-right: 15px;
+            background-color: chocolate;
+        }
+        .li:hover{
+            background-color: blue;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .lia{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="flex">
+            <h3 style="padding-right: 300px;">Logo</h3>
+            <ul class="ul">
+                <li class="li"><a href="index.html" class="lia">Home</a></li>
+                <li class="li"><a href="images/logo.png">About</a></li>
+                <li class="li"><a href="#education">Education</a></li>
+                <li class="li">Skills</li>
+                <li class="li">Achievements</li>
+                <li class="li">Contact</li>
+            </ul>
+        </div>
+    </nav>
+    <h1 name="education">Education</h1>
+</body>
+
+</html>
